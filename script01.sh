@@ -4,7 +4,6 @@ x=0
 if [ $x -lt $y ];then
     while [ $x -lt $y ];do
 	    cmd=$(xfce4-terminal)
-	    echo $cmd
 	    x=$((x+1))
     done
 else
